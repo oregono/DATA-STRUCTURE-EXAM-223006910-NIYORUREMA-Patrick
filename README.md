@@ -1,9 +1,3 @@
-Names: NIYORUREMA Patrick
-SCHOOL OF BUSINESS
-DEPARTMENT OF BUSINESS INFORMATION AND TECHNOLOGY
-ACADEMIC YEAR: 2024 - 2025
-MODULE: OBJECT ORIENTED PROGRAMMING WITH C++
-
 **PROJECT NAME: CONTACTS AND GROUP ORGANIZER PROJECT**
 
 
@@ -40,12 +34,12 @@ How the Task Was Completed:
 
 
 CONTACT MANAGEMENT 
- - Two specialized classes—`FamilyContact` and `ProfessionalContact`—were created to represent different types of contacts.
- - These classes inherit from an abstract base class `ContactBase`, which defines virtual functions for displaying and retrieving contact names.
+ - Two specialized classes **FamilyContact** and **ProfessionalContact** were created to represent different types of contacts.
+ - These classes inherit from an abstract base class **ContactBase**, which defines virtual functions for displaying and retrieving contact names.
 
 
 GROUP MANAGEMENT
-- Groups are implemented as a dynamic structure using a `Group` struct.
+- Groups are implemented as a dynamic structure using a **Group** struct.
 - Each group holds a dynamic array of pointers to contact objects (polymorphic), allowing flexible group composition.
 
 
@@ -68,7 +62,7 @@ Functionality              Implementation Details
 
 Dynamic Memory Management
  - All contacts and groups are stored in dynamically allocated arrays that resize when capacity is exceeded.
- - Proper deallocation (`delete[]`, `delete`) is handled before program termination to avoid memory leaks.
+ - Proper deallocation **(delete[],delete)** is handled before program termination to avoid memory leaks.
    
 
 User Interface
